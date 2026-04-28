@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raj Kumar Sahu - Full Stack Developer | Portfolio">
+  <title>Raj Kumar Sahu | Full Stack Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <nav class="navbar-container">
+    <div class="navbar-brand">
+      <a href="#home" class="logo">Raj Kumar Sahu</a>
+    </div>
+    
+    <button class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="greeting">Welcome to my portfolio</div>
+        <h1>Hi, I'm <span class="highlight">Raj Kumar Sahu</span></h1>
+        <h2 class="role">Full Stack Developer</h2>
+        <p class="tagline">Crafting elegant, scalable solutions for modern web challenges</p>
+        
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/rajkumarsahu98943-web" target="_blank" title="GitHub" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/raj-kumar-sahu-927927404?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" title="LinkedIn" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/raj_kumar_sahu__07?igsh=MXd5Z2NiMGE0ZWt3ZQ==" target="_blank" title="Instagram" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="mailto:rajkumarsahu@example.com" title="Email" class="social-icon">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="img/profile.jpeg" alt="Raj Kumar Sahu" class="profile-img">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>About Me</h2>
+      <p class="section-subtitle">Get to know me better</p>
+    </div>
+    
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I'm a passionate Full Stack Developer with a keen eye for creating beautiful, 
+          functional digital experiences. With expertise in modern web technologies, I 
+          specialize in building responsive applications that solve real-world problems.
+        </p>
+        <p>
+          My journey in web development began with curiosity and has evolved into a 
+          commitment to continuous learning and excellence. I thrive in collaborative 
+          environments and love turning ideas into reality through clean, efficient code.
+        </p>
+        <div class="about-stats">
+          <div class="stat">
+            <h3>3+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat">
+            <h3>0+</h3>
+            <p>Happy Clients</p>
+          </div>
+          <div class="stat">
+            <h3>6 months</h3>
+            <p>Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="section skills-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Technical Skills</h2>
+      <p class="section-subtitle">Technologies I work with</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <div class="skills-list">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Backend</h3>
+        <div class="skills-list">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Express</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">REST APIs</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Database & Tools</h3>
+        <div class="skills-list">
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Docker</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section projects-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+      <p class="section-subtitle">Showcasing my best work</p>
+    </div>
+
+    <div class="projects-grid" id="projectsContainer">
+      <div class="project-card">
+        <div class="project-image">
+          <i class="fas fa-cloud"></i>
+        </div>
+        <div class="project-content">
+          <h3>Weather App</h3>
+          <p>Real-time weather forecasting application with interactive maps and detailed analytics using modern APIs.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">API</span>
+            <span class="tag">CSS3</span>
+          </div>
+          <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <i class="fas fa-tasks"></i>
+        </div>
+        <div class="project-content">
+          <h3>To-Do App</h3>
+          <p>Full-featured task management system with real-time synchronization and intelligent prioritization.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">LocalStorage</span>
+            <span class="tag">UX</span>
+          </div>
+          <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <i class="fas fa-laptop"></i>
+        </div>
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>Full-stack personal portfolio with dynamic content management, responsive design, and smooth animations.</p>
+          <div class="project-tags">
+            <span class="tag">Full-Stack</span>
+            <span class="tag">Responsive</span>
+            <span class="tag">Node.js</span>
+          </div>
+          <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Let's Connect</h2>
+      <p class="section-subtitle">I'd love to hear from you. Get in touch with me today!</p>
+    </div>
+
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="info-item">
+          <div class="info-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div>
+            <h3>Email</h3>
+            <p><a href="mailto:rajkumarsahu98943@gmail.com">rajkumarsahu98943@gmail.com</a></p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div>
+            <h3>Phone</h3>
+            <p><a href="tel:+9263118963">+9263118963</a></p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div>
+            <h3>Location</h3>
+            <p>Dheradun,Uttrakand,India</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required class="form-control">
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" rows="5" required class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Raj Kumar Sahu</h3>
+        <p>Full Stack Developer | Creating Digital Solutions</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Me</h3>
+        <div class="footer-social">
+          <a href="https://github.com/rajkumarsahu98943-web" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/raj-kumar-sahu-927927404?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/raj_kumar_sahu__07?igsh=MXd5Z2NiMGE0ZWt3ZQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Raj Kumar Sahu. All rights reserved. | Designed with <i class="fas fa-heart"></i> by Raj</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+</html>
