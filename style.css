@@ -1,6 +1,4 @@
-/* ========================
-   VARIABLES & RESET
-   ======================== */
+
 :root {
   --primary-color: #0f172a;
   --secondary-color: #1e293b;
@@ -160,7 +158,6 @@ body {
   height: 500px;
   background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
   border-radius: 50%;
-  animation: float 6s ease-in-out infinite;
 }
 
 .hero::after {
@@ -172,12 +169,6 @@ body {
   height: 400px;
   background: radial-gradient(circle, rgba(124, 58, 237, 0.15) 0%, transparent 70%);
   border-radius: 50%;
-  animation: float 8s ease-in-out infinite reverse;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(30px); }
 }
 
 .hero-content {
@@ -194,18 +185,6 @@ body {
 .hero-text {
   flex: 1;
   color: var(--text-light);
-  animation: slideInLeft 1s ease-out;
-}
-
-@keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
 }
 
 .greeting {
@@ -319,18 +298,6 @@ body {
 
 .hero-image {
   flex: 1;
-  animation: slideInRight 1s ease-out;
-}
-
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
 }
 
 .image-wrapper {
@@ -424,18 +391,6 @@ body {
 
 .stat {
   text-align: center;
-  animation: fadeInUp 0.6s ease-out;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .stat h3 {
@@ -793,12 +748,6 @@ body {
 
 .footer-bottom i {
   color: var(--danger-color);
-  animation: heartbeat 1.5s ease-in-out infinite;
-}
-
-@keyframes heartbeat {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.2); }
 }
 
 /* ========================
